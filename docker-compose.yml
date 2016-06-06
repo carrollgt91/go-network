@@ -1,0 +1,6 @@
+router:
+  build: "."
+  ports:
+    - "4000:80"
+  environment:
+    - "LISTEN_PORT=80"
